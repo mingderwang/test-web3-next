@@ -13,6 +13,6 @@ web3.eth.getAccounts().then(console.log)
 
 export default () => (
   <div>
-    <p>You must install MetaMask extension.</p>
+    <p>You must install MetaMask extension. and see a web3 inject and accounts list in devtool console</p>
   </div>
 )
