@@ -5,6 +5,8 @@
     "build": "next build",
     "start": "next start"
   },
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "next": "^4.2.3",
     "react": "^16.2.0",
