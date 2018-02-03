@@ -13,6 +13,6 @@ web3.eth.getAccounts().then(console.log)
 
 export default () => (
   <div>
-    <p>This is the about page</p>
+    <p>You must install MetaMask extension.</p>
   </div>
 )

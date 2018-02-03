@@ -1,22 +1,14 @@
 {
-  "name": "hello-next",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "create-next-dapp-example",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "eth-lib": "^0.2.7",
-    "ethjs-unit": "^0.1.6",
-    "next": "^4.2.0",
+    "next": "^4.2.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "solc": "^0.4.19",
     "web3": "^1.0.0-beta.29"
   }
 }
