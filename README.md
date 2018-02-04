@@ -1,6 +1,7 @@
 ## run testrcp in local
 ```
-testrpc --gasLimit 6721975 --gasPrice 100000000000
+yarn global add ganache-cli
+ganache-cli --gasLimit 6721975 --gasPrice 100000000000
 ```
 ## run client
 ```
@@ -48,13 +49,8 @@ my-app/
   README.md
   package.json
   next.config.js
-  components/
-    head.js
-    nav.js
   pages/
     index.js
-  static/
-    favicon.ico
 ```
 
 Routing in Next.js is based on the file system, so `./pages/index.js` maps to the `/` route and
